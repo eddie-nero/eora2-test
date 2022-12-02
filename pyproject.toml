@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eora2-test"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Musolin <eddienero@ya.ru>"]
+readme = "README.md"
+packages = [{include = "eora2_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.5"
+pandas = "^1.5.2"
+scikit-learn = "^1.1.3"
+jupyter = "^1.0.0"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
