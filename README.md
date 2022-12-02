@@ -17,6 +17,7 @@ https://hh.ru/vacancy/72301593
 2. Если нет, можно воспользоваться стандартными инструментами, например:
     ```bash
     python -m venv .venv
-   .\.venv\Scripts\activate
+   .\.venv\Scripts\activate # для Windows
+   . .venv/bin/activate # Для Unix
    pip install -r requirements.txt
     ```
